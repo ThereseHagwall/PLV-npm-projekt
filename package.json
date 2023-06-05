@@ -1,0 +1,26 @@
+{
+  "name": "plv-npm-projekt",
+  "version": "1.0.0",
+  "description": "En skoluppgift där vi lär oss skapa egna npmpaket och deploya på netlify",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThereseHagwall/PLV-npm-projekt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThereseHagwall/PLV-npm-projekt/issues"
+  },
+  "homepage": "https://github.com/ThereseHagwall/PLV-npm-projekt#readme",
+  "dependencies": {
+    "mysecondsimplenpmpackage": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.3"
+  }
+}
