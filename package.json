@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/ThereseHagwall/PLV-npm-projekt#readme",
   "dependencies": {
-    "mysecondsimplenpmpackage": "^1.0.0"
+    "express": "^4.18.2",
+    "mysecondsimplenpmpackage": "^1.0.0",
+    "mysimplenpmpackage": "^1.1.0"
   },
   "devDependencies": {
     "webpack-cli": "^5.1.3"
