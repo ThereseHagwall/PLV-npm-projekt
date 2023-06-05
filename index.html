@@ -13,6 +13,16 @@
     <h3>Addering</h3>
     <input type="number" id="inputA" placeholder="Skriv en siffra">
     <input type="number" id="inputB" placeholder="Skriv en siffra">
-    <button onclick="addNumbers(parseInt(document.getElementById('inputA').value), parseInt(document.getElementById('inputB').value))">Addera</button>
+    <button onclick="calculateSum()">Addera</button>
+    <p id="result"></p>
+
+    <script>
+        function calculateSum() {
+            var inputA = parseInt(document.getElementById('inputA').value);
+            var inputB = parseInt(document.getElementById('inputB').value);
+            var sum = addNumbers(inputA, inputB);
+            document.getElementById('result').innerHTML = "Resultat: " + sum;
+        }
+    </script>
 </body>
 </html>
