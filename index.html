@@ -18,10 +18,14 @@
 
     <script>
         function calculateSum() {
-            var inputA = parseInt(document.getElementById('inputA').value);
-            var inputB = parseInt(document.getElementById('inputB').value);
-            var sum = addNumbers(inputA, inputB);
+            const inputA = parseInt(document.getElementById('inputA').value);
+            const inputB = parseInt(document.getElementById('inputB').value);
+            const sum = addNumbers(inputA, inputB);
             document.getElementById('result').innerHTML = "Resultat: " + sum;
+            document.getElementById('inputA').value = "";
+            document.getElementById('inputB').value = "";
+
+
         }
     </script>
 </body>
